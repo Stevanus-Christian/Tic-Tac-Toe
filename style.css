@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+.game{
+    width: 45vw;
+    border: 3px solid black;
+    margin: auto;
+}
+.row{
+    display: flex;    
+}
+.box{
+    border: 3px solid black;
+    width: 15vw;
+    height: 15vw; 
+    background-color: red;
+    font-size: 8rem;
+    position: relative;
+    text-align: center;
+}
+.box span{
+    display: block;
+    margin-top: 1.3rem;
+}
+.box:hover{
+    background-color: lightgreen;
+}
+#restart{
+    display: none;
+    margin: 1rem auto;
+    border: 3px solid black;
+    background-color: red;
+    border-radius: 0.3rem;
+    font-size: 2rem;
+    padding: 0.5rem 1.5rem;
+}
+#restart:hover{
+    color: red;
+    background-color: black;
+    cursor: pointer;
+}
+@media only screen and (max-width:800px){
+    .game{
+        width: 75vw;
+    }
+    .box{
+        width: 25vw;
+        height: 25vw; 
+        font-size: 3rem;
+    }
+}

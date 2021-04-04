@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="fav.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.4.1.min.js"></script>
+</head>
+<body>
+   <div class="game">
+       <div class="row">
+           <div class="box" id="box0" onclick="userClick('0')"><span id="span0"></span></div>
+           <div class="box" id="box1" onclick="userClick('1')"><span id="span1"></span></div>
+           <div class="box" id="box2" onclick="userClick('2')"><span id="span2"></span></div>
+       </div>
+       <div class="row">
+           <div class="box" id="box3" onclick="userClick('3')"><span id="span3"></span></div>
+           <div class="box" id="box4" onclick="userClick('4')"><span id="span4"></span></div>
+           <div class="box" id="box5" onclick="userClick('5')"><span id="span5"></span></div>
+       </div>
+       <div class="row">
+           <div class="box" id="box6" onclick="userClick('6')"><span id="span6"></span></div>
+           <div class="box" id="box7" onclick="userClick('7')"><span id="span7"></span></div>
+           <div class="box" id="box8" onclick="userClick('8')"><span id="span8"></span></div>
+       </div>
+   </div>
+   <button onclick="location.reload();" id="restart">Restart</button>
+    
+</body>
+<script src="script.js"></script>
+</html>
